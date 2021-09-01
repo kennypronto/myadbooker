@@ -7,7 +7,6 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     window.addEventListener("message", this.receiveMessage);
-    console.log("Hello");
   }
   componentWillUnmount() {
     window.removeEventListener("message", this.receiveMessage);

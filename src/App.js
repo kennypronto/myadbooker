@@ -31,11 +31,10 @@ class App extends React.Component {
       }
       case "PLAYING": {
         // Ad is playing.
-        console.log("playing");
         break;
       }
       case "COMPLETE": {
-        console.log("finished");
+        window.external.Navigate(null);
         // Ad is finished. Proceed to next ad.
         break;
       }

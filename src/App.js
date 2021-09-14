@@ -34,7 +34,6 @@ class App extends React.Component {
         break;
       }
       case "COMPLETE": {
-        window.external.Navigate(null);
         // Ad is finished. Proceed to next ad.
         break;
       }
